@@ -5,13 +5,13 @@ A simple wrapper for dcm2niix that adds BIDS-compliant CT metadata to JSON sidec
 ## Installation
 
 ```bash
-pip install git+https://github.com/yourusername/dcm2niix4ct.git
+pip install git+https://github.com/ChristianHinge/dcm2niix4ct.git
 ```
 
 Or clone and install:
 
 ```bash
-git clone https://github.com/yourusername/dcm2niix4ct.git
+git clone https://github.com/ChristianHinge/dcm2niix4ct.git
 cd dcm2niix4ct
 pip install -e .
 ```
