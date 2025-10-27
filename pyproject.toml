@@ -1,0 +1,20 @@
+[project]
+name = "dcm2niix4ct"
+version = "0.1.0"
+description = "A wrapper for dcm2niix that adds BIDS-compliant CT metadata to JSON sidecars"
+readme = "README.md"
+authors = [
+    { name = "Christian Hinge", email = "christian.hinge@outlook.dk" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pydicom>=2.3.0",
+    "numpy>=1.20.0",
+]
+
+[project.scripts]
+dcm2niix4ct = "dcm2niix4ct.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.8.16,<0.9.0"]
+build-backend = "uv_build"
