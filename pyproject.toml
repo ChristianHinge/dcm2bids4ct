@@ -1,5 +1,5 @@
 [project]
-name = "dcm2niix4ct"
+name = "dcm2bids4ct"
 version = "0.1.0"
 description = "A wrapper for dcm2niix that adds BIDS-compliant CT metadata to JSON sidecars"
 readme = "README.md"
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-dcm2niix4ct = "dcm2niix4ct.cli:main"
+dcm2bids4ct = "dcm2bids4ct.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.8.16,<0.9.0"]
