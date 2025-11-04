@@ -8,7 +8,7 @@ resolution-markers = [
 ]
 
 [[package]]
-name = "dcm2niix4ct"
+name = "dcm2bids4ct"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
