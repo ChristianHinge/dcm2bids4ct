@@ -5,7 +5,7 @@ A simple wrapper for dcm2niix that adds BIDS-compliant CT metadata to JSON sidec
 ## Installation
 
 ```bash
-pip install git+https://github.com/ChristianHinge/dcm2bids4ct.git
+pip install dcm2bids4ct
 ```
 
 Or clone and install:
