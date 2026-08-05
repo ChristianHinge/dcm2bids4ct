@@ -200,7 +200,7 @@ def extract_ct_metadata(dicom_files: List[str]) -> Dict[str, Any]:
     params = {
         "Modality": get_str(ct_file, "Modality", "CT"),
         "Manufacturer": get_str(ct_file, "Manufacturer"),
-        "ManufacturerModelName": get_str(ct_file, "ManufacturerModelName"),
+        "ManufacturersModelName": get_str(ct_file, "ManufacturerModelName"),
         "SeriesDescription": get_str(ct_file, "SeriesDescription"),
         "ProtocolName": get_str(ct_file, "ProtocolName"),
         "TubeVoltage": get_float(ct_file, "KVP"),
